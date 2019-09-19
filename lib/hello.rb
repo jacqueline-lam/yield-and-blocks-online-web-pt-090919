@@ -1,5 +1,5 @@
 def hello_t(array)
-  # set a counter variable, i, equal to 0
+  # method will yield each element of the array to the block if a block is present 
   if block_given? #returns true if the method is called with a block 
     i = 0 
   
@@ -14,7 +14,7 @@ def hello_t(array)
     end
   
     array
-  else
+  else # mif block is not present, method will puts out a helpful phrase
     puts "Hey! No block was given!"
   end
 end
