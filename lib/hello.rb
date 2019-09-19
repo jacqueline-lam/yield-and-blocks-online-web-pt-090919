@@ -7,6 +7,8 @@ def hello_t(array)
     # use this info to yield each successive value stored in the array 
     # to the passed-in block:
     yield array[i]
+    # [] method to grab the value of each successive index element as we proceed through our while loop
+    # yielding each to a block
     i += 1 # increment the value of i
   end
   
