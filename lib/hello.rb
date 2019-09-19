@@ -12,6 +12,7 @@ def hello_t(array)
     i += 1 # increment the value of i
   end
   
+  array
 end
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
